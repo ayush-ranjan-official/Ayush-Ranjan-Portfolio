@@ -4,7 +4,7 @@ import twitter from "./twitter.png";
 import github from "./github.png";
 import linkto from "./linkto.png";
 import AyuProfile from "./AyuProfile.png";
-import uniswapv1 from "./uniswapv1.jpeg";
+import uniswapv1 from "./uniswapV1.jpeg";
 import ICO from "./ICO.jpeg";
 import ToDo from "./ToDo.png";
 import education from "./IIT_LOGO.png";
