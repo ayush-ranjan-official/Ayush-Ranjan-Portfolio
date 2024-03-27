@@ -1,18 +1,7 @@
-#  My Portfilio - Vite + React.js, Tailwind CSS & AOS 😀 ✨
+#  My Portfilio 😀 ✨
 
-Hello 👋, Welcome to my portfolio web app repository ! This project is built using React.js ⚛️ and styled with Tailwind CSS 🎨 showcase my skills, projects, and achievements. With a touch of interactivity, I've added smooth animations on scroll 🔄 to enhance the user experience.
-
+Hello 👋, Welcome to my portfolio web app repository ! I'm a blockchain developer with a passion for DeFi, blockchain, and Web3 technologies. My mission? To create software that not only works but also redefines the future of the internet. Let's connect and brew up some ideas together.
  
-
-# Features 🚀:
-
-- 👉 Skill Showcase: Highlighting my technical skills and proficiency in various technologies.💻
-- 👉 Project Gallery: Displaying a collection of my completed projects with project descriptions and live demos.📂  
-- 👉 Responsive Design: Ensuring a seamless viewing experience on various devices and screen sizes.📱
-- 👉 Animate on Scroll: Adding eye-catching animations to engage visitors and make the content come to life.🌟
-
-
-Feel free to explore my portfolio and get in touch if you have any questions or collaboration opportunities! 📩
 
 
 
