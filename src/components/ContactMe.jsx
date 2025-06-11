@@ -36,13 +36,13 @@ const ContactMe = ({ onClose }) => {
   return (
     <div className="fixed inset-0 top-0 left-0 w-full h-full flex justify-center items-center bg-black dark:bg-white dark:bg-opacity-5 bg-opacity-50 z-10">
       <Toaster />
-      <div className="bg-red-50 p-6 rounded shadow-md   font-montserrat dark:bg-slate-900 dark:text-coral-red">
+      <div className="bg-red-50 p-6 rounded shadow-md font-montserrat dark:bg-slate-900 dark:text-coral-red">
         <h2 className="text-2xl text-coral-red text-center font-montserrat font-semibold mb-4">
           Contact Me
         </h2>
-        <h2 className="text-2xl text-white text-center font-montserrat font-semibold mb-4">
-          Email: ayushranjanofficial@gmail.com
-        </h2>
+        <div className="text-lg text-gray-700 dark:text-gray-300 text-center font-montserrat mb-4">
+          Email: <a href="mailto:ayushranjanofficial27@gmail.com" className="text-coral-red hover:underline">ayushranjanofficial27@gmail.com</a>
+        </div>
 
         <form ref={form} onSubmit={sendEmail}>
           <div className="flex flex-col gap-4">
@@ -82,7 +82,7 @@ const ContactMe = ({ onClose }) => {
             <div className="m-1 flex flex-col">
               <label
                 htmlFor="inputmsg"
-                className="text-gray-700  dark:text-white mb-2 ml-2"
+                className="text-gray-700 dark:text-white mb-2 ml-2"
               >
                 Message :
               </label>
