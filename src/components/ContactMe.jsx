@@ -40,6 +40,9 @@ const ContactMe = ({ onClose }) => {
         <h2 className="text-2xl text-coral-red text-center font-montserrat font-semibold mb-4">
           Contact Me
         </h2>
+        <h2 className="text-2xl text-white text-center font-montserrat font-semibold mb-4">
+          Email: ayushranjanofficial@gmail.com
+        </h2>
 
         <form ref={form} onSubmit={sendEmail}>
           <div className="flex flex-col gap-4">

@@ -26,9 +26,11 @@ const EducationCard = ({ name, course, duration }) => {
         1. Data structures and algorithms (CSE201)<br/>
         2. Principles of Blockchain Technologies (CSO506)<br/>
         3. Artificial Intelligence (CSO303)<br/>
-        4. Computer Programming (CSI101)<br/>
-        5. Optimization Techniques (CSD516)<br/>
-        6. Evolutionary Computation (CSD405)
+        4. Cryptography (CSO404)<br/>
+        5. Graph Algorithms (MCO403)<br/>
+        6. Computer Programming (CSI101)<br/>
+        7. Optimization Techniques (CSD516)<br/>
+        8. Evolutionary Computation (CSD405)
       </p>
     </div>
   );

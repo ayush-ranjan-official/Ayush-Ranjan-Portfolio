@@ -12,7 +12,7 @@ const ExperienceCard = ({ logo, Position, CompanyName, Website, Certificate, tim
         <img src={logo} width={130} alt="img" />
 
         <h1 className="mt-5 font-palanquin text-xl md:text-3xl leading-normal font-bold text-red-500">
-          {Position} ( {time})
+          {Position} - ({time})
         </h1>
         <p className="mt-3 break-words font-montserrat text-lg leading-normal">
           <span className=" font-semibold">Company Name :</span> {CompanyName}

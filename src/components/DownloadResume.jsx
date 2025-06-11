@@ -3,11 +3,11 @@ import { Tooltip } from "react-tooltip";
 
 const DownloadResume = () => {
   const handleDownload = () => {
-    const resumeUrl = "Ayush Ranjan of IIT (ISM) Blockchain Resume (MARCH,2024).pdf";
+    const resumeUrl = "Ayush Ranjan Resume.pdf";
 
     const a = document.createElement("a");
     a.href = resumeUrl;
-    a.download = "Ayush Ranjan of IIT (ISM) Blockchain Resume (MARCH,2024).pdf";
+    a.download = "Ayush Ranjan Resume.pdf";
 
     a.click();
   };
