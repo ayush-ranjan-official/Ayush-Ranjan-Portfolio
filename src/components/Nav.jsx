@@ -7,7 +7,7 @@ const Nav = () => {
     <header
       data-aos="fade-down"
       data-aos-duration="1000"
-      className="padding-x py-5  absolute z-10 w-full"
+      className="fixed top-0 left-0 right-0 padding-x py-5 z-50 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm shadow-sm"
     >
       <nav className="flex justify-between items-center max-container">
         <a href="/">

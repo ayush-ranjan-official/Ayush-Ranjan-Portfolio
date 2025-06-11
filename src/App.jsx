@@ -8,6 +8,7 @@ import Certificates from "./sections/Certificates";
 import Footer from "./sections/Footer";
 import DownloadResume from "./components/DownloadResume";
 import Contact from "./sections/Contact";
+import CustomCursor from "./components/CustomCursor";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,32 +20,35 @@ const App = () => {
   }, []);
 
   return (
-    <main className="relative bg-white  dark:bg-slate-800 dark:text-white bg-gradient-to-r from-orange-200 dark:from-slate-900">
+    <main className="relative bg-white dark:bg-slate-800 dark:text-white bg-gradient-to-r from-orange-200 dark:from-slate-900 cursor-none">
+      <CustomCursor />
       <Nav />
-      <section className="xl:padding-l wide:padding-r ">
-        <Home />
-      </section>
-      <section className="padding-e">
-        <Experience />
-      </section>
-      <section className="padding-x py-10 p-b">
-        <Projects />
-      </section>
-      <section className="padding-e">
-        <Education />
-      </section>
-      <section className="padding">
-        <Skills />
-      </section>
-      <section className="padding-x py-5">
-        <Certificates />
-      </section>
-      <section className="padding-x py-5">
-        <Contact />
-      </section>
-      <section className="padding-x py-5 bg-black">
-        <Footer />
-      </section>
+      <div className="pt-24">
+        <section className="xl:padding-l wide:padding-r">
+          <Home />
+        </section>
+        <section className="padding-e">
+          <Experience />
+        </section>
+        <section className="padding-x py-10 p-b">
+          <Projects />
+        </section>
+        <section className="padding-e">
+          <Education />
+        </section>
+        <section className="padding">
+          <Skills />
+        </section>
+        <section className="padding-x py-5">
+          <Certificates />
+        </section>
+        <section className="padding-x py-5">
+          <Contact />
+        </section>
+        <section className="padding-x py-5 bg-black">
+          <Footer />
+        </section>
+      </div>
       <DownloadResume />
     </main>
   );
